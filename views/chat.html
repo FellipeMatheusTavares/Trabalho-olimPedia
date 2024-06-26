@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olimpedia - Chat</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="site-title">Olimpedia - Chat</h1>
+        <div class="top-right-buttons">
+            <button id="logout-btn">Logout</button>
+        </div>
+    </header>
+    <main>
+        <section class="video-section">
+            <video class="centered-video" controls>
+                <source src="/video/videoOlimpiadas.mp4" type="video/mp4">
+                Seu navegador não suporta a reprodução de vídeo.
+            </video>
+        </section>
+        <section class="chat-section">
+            <h2>Chat</h2>
+            <div id="chat-box"></div>
+            <form id="chat-form">
+                <input type="text" id="chat-input" placeholder="Digite sua mensagem">
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <script src="/js/app.js"></script>
+</body>
+</html>
